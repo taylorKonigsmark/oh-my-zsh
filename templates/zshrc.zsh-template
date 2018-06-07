@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH=$HOME/.oh-my-zsh
+export ZSH=/Users/taylorkonigsmark/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -60,6 +60,27 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  aws
+  brew
+  cask
+  cp
+  docker-compose
+  docker
+  docker-machine
+  go
+  gradle
+  helm
+  jira
+  osx
+  pip
+  pylint
+  pyenv
+  python
+  redis-cli
+  spring
+  kubectl
+  vault
+  minikube
 )
 
 source $ZSH/oh-my-zsh.sh
